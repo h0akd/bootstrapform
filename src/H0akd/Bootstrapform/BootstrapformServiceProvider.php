@@ -20,7 +20,7 @@ class BootstrapformServiceProvider extends ServiceProvider {
      * @return void
      */
     public function register() {
-        $this->app['bootform'] = $this->app->share(function($app) {
+        $this->app['bootstrapform'] = $this->app->share(function($app) {
             $form = new BootstrapForm($app['html'], $app['url'], $app['session.store']->getToken());
             return $form->setSessionStore($app['session.store']);
         });
