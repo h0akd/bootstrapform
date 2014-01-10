@@ -1,10 +1,11 @@
 {
     "name": "h0akd/bootstrapform",
-    "description": "",
+    "description": "Twiter bootstrap 3 ",
+    "keywords": ["bootstrap", "laravel", "bootstrap 3", "laravel bootstrap", "bootstrap form", "laravel form for bootrap 3","laravel form for bootstrap"],
     "authors": [
         {
-            "name": "",
-            "email": ""
+            "name": "Mai Ngọc Hoá",
+            "email": "h0a.kd93@gmail.com"
         }
     ],
     "require": {
