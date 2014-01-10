@@ -24,6 +24,7 @@ class BootstrapformServiceProvider extends ServiceProvider {
             $form = new BootstrapForm($app['html'], $app['url'], $app['session.store']->getToken());
             return $form->setSessionStore($app['session.store']);
         });
+        AliasLoader::getInstance()->alias('BSTForm', 'H0akd\Bootstrapform\Facades\BootstrapForm');
     }
 
     /**
