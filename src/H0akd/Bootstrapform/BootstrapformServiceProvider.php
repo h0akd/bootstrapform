@@ -4,6 +4,7 @@ namespace H0akd\Bootstrapform;
 
 use Illuminate\Support\ServiceProvider;
 use H0akd\Bootstrapform\BootstrapForm;
+use Illuminate\Foundation\AliasLoader;
 
 class BootstrapformServiceProvider extends ServiceProvider {
 
